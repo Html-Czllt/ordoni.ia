@@ -6,6 +6,7 @@
     --cor-secundaria: #0055A4;
     --cor-destaque: #0055A4;
     --cor-texto: #000000;
+
 }
 
 body {
@@ -56,7 +57,7 @@ h1 {
 
 button {
     background-color: var(--cor-secundaria);
-    color: var(--cor-texto);
+    color: var(--cor-fundo);
     border: none;
     border-radius: 15px;
     padding: 15px;
@@ -70,7 +71,7 @@ button:hover {
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada ao passar o mouse */
-    transform: translateY(-2px); /* Levanta o botão um pouco */
+    transform: translateY(-4px); /* Levanta o botão um pouco */
 }
 
 .caixa-resultado {
